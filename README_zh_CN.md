@@ -1,10 +1,10 @@
-这个插件完善了思源的间隔重复系统，在思源刚要做闪卡时，我心里有过相关的想法，现在时机成熟先做了出来。
+﻿这个插件完善了思源的间隔重复系统，在思源刚要做闪卡时，我心里有过相关的想法，现在时机成熟先做了出来。
 
 这个插件刚到达闪卡的第二阶段，还有很多需要完善，它主要有这些功能：
 
 # SRS 浏览器
 
-![image](assets/image-20260217135755-mcan1zg.png)
+![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217135755-mcan1zg.png)
 
 - 右侧是预览区，会预览闪卡对应的块，默认锁定，双击解锁。
 - 左下角是文档区，会展示所有闪卡的所在的文档块，它会跟着搜索结果、条件筛选、当前队列进行聚焦，辅助管理闪卡。
@@ -87,7 +87,7 @@
 - 队列卡片来源：
 
   - 根据筛选条件获取卡片到队列进行复习，正常评分会移除卡片，点【Rebuild】会重新获取卡片到队列。
-  - ![image](assets/image-20260217151638-cgm7my8.png)
+  - ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217151638-cgm7my8.png)
 - 算法：
 
   - item 和 descriptor 使用 FSRS 算法驱动，topic 和 concept 使用另一种算法驱动。
@@ -114,7 +114,7 @@
   - 正链=正文中对其它概念（文档块）的引用
   - 反链=正文
   - 正链=反链中对其它概念的引用
-  - ![image](assets/image-20260217163333-r5n304c.png)
+  - ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217163333-r5n304c.png)
 
 # 快速制卡
 
@@ -164,10 +164,10 @@
     - 符号→后面的【子列表块得是有序列表】文本是问题
 - 制卡演示：
 
-  - ![PixPin_2026-02-17_17-02-23](assets/PixPin_2026-02-17_17-02-23-20260217170230-5lnj8ae.gif)
+  - ![PixPin_2026-02-17_17-02-23](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_17-02-23-20260217170230-5lnj8ae.gif)
 - 复习效果：
 
-  - ![PixPin_2026-02-17_17-20-40](assets/PixPin_2026-02-17_17-20-40-20260217172050-aplrjnx.gif)
+  - ![PixPin_2026-02-17_17-20-40](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_17-20-40-20260217172050-aplrjnx.gif)
 
 模版制卡的一些缺陷，努力改造中：
 
@@ -193,7 +193,7 @@
       - *临界点* ;; **奥本海默极限** (超过则坍缩为黑洞)
   - 复习效果：
 
-    - ![PixPin_2026-02-17_18-09-48](assets/PixPin_2026-02-17_18-09-48-20260217181023-945qx07.gif)
+    - ![PixPin_2026-02-17_18-09-48](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_18-09-48-20260217181023-945qx07.gif)
 - 小技巧：
 
   - 删除描述符卡：
@@ -206,7 +206,7 @@
     2. 点击右上角文档块块标
     3. 导出-模板
     4. 在对应概念下用块菜单 **/模版**  唤出对应的描述符模版
-  - ![image](assets/image-20260217175020-s0zufqu.png)
+  - ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217175020-s0zufqu.png)
 
 # 分离思源的块和闪卡，实现一个块生成多张闪卡
 
@@ -222,22 +222,21 @@
   - 右键排序
   - 演示：
 
-    - ![PixPin_2026-02-17_18-42-17](assets/PixPin_2026-02-17_18-42-17-20260217184242-9clerkh.gif)
+    - ![PixPin_2026-02-17_18-42-17](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_18-42-17-20260217184242-9clerkh.gif)
 
 ## 提前
 
 - 在浏览器中，右键卡片选择【提前】，与【推迟】对应
-- ![image](assets/image-20260217184325-hduqqmx.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217184325-hduqqmx.png)
 
 ## 推迟
 
 - 在浏览器中，右键卡片选择推迟
-- ![image](assets/image-20260217184540-o1c2fwv.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217184540-o1c2fwv.png)
 
 ## 分摊压力
 
 - 在浏览器的工具栏上会有【分摊压力】按钮，点击会打开界面
-- ![image](assets/image-20260217185204-zpfvb1p.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217185204-zpfvb1p.png)
 - 注意：在全部闪卡下的【分摊压力】功能有两种模式，一种是处理未复习的闪卡，也就是积压（默认不勾选考虑未来复习），另外一种就是会考虑未来一年复习的闪卡，可以通过调整收集期来选中。
 - 在队列视图下，点击【分摊压力】会默认收集到期的卡片，无法更改收集期。
-

@@ -1,10 +1,10 @@
-This plugin enhances/refines Siyuan's Spaced Repetition System (SRS). I had ideas related to this back when Siyuan was just starting to implement flashcards. Now that the time is right, I have brought it to life.
+﻿This plugin enhances/refines Siyuan's Spaced Repetition System (SRS). I had ideas related to this back when Siyuan was just starting to implement flashcards. Now that the time is right, I have brought it to life.
 
 This plugin has just reached the "Phase 2" of flashcard development and still has many areas for improvement. Its main features are as follows:
 
 # SRS Browser
 
-![image](assets/image-20260217135755-mcan1zg.png)
+![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217135755-mcan1zg.png)
 
 * **Right Side (Preview Pane):** Previews the block corresponding to the flashcard. It is locked by default; double-click to unlock.
 * **Bottom Left (Document Pane):** Displays the document blocks where all flashcards are located. It focuses dynamically based on search results, conditional filters, or the current queue, assisting in flashcard management.
@@ -88,7 +88,7 @@ This plugin has just reached the "Phase 2" of flashcard development and still ha
 
 * **Card Source:**
 * Fetches cards into the queue based on filter conditions for review. Normal grading removes the card; clicking **[Rebuild]** re-fetches cards into the queue.
-* ![image](assets/image-20260217151638-cgm7my8.png)
+* ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217151638-cgm7my8.png)
 
 * **Algorithm:** Items/Descriptors use FSRS; Topics/Concepts use a separate algorithm.
 
@@ -115,7 +115,7 @@ This plugin has just reached the "Phase 2" of flashcard development and still ha
 * Forward Link = References to other Concepts (Document Blocks) within the main text.
 * Backlink = The main text itself.
 * Forward Link = References to other concepts found within the Backlinks.
-* ![image](assets/image-20260217163333-r5n304c.png)
+* ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217163333-r5n304c.png)
 
 
 
@@ -175,10 +175,10 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 
 
 * ## **Demo:**
-  - ![PixPin_2026-02-17_17-02-23](assets/PixPin_2026-02-17_17-02-23-20260217170230-5lnj8ae.gif)
+  - ![PixPin_2026-02-17_17-02-23](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_17-02-23-20260217170230-5lnj8ae.gif)
 
 * ## **Review Effect:**
-  - ![PixPin_2026-02-17_17-20-40](assets/PixPin_2026-02-17_17-20-40-20260217172050-aplrjnx.gif)
+  - ![PixPin_2026-02-17_17-20-40](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_17-20-40-20260217172050-aplrjnx.gif)
 
 
 *Current limitation of Template Creation (Working on it):*
@@ -208,7 +208,7 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 
 
 * ## **Review Effect:**
-    - ![PixPin_2026-02-17_18-09-48](assets/PixPin_2026-02-17_18-09-48-20260217181023-945qx07.gif)
+    - ![PixPin_2026-02-17_18-09-48](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_18-09-48-20260217181023-945qx07.gif)
 
 * **Tip:**
 * **Deleting Descriptor Cards:**
@@ -221,7 +221,7 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 2. Click the top-right Document Block icon.
 3. Export -> Template.
 4. Use `/template` under the corresponding concept to summon the corresponding Descriptor Template.
-  - ![image](assets/image-20260217175020-s0zufqu.png)
+  - ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217175020-s0zufqu.png)
 
 
 
@@ -238,7 +238,7 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 * Click browser field to sort.
 * Right-click -> Sort.
 * ## **Demo:**
-    - ![PixPin_2026-02-17_18-42-17](assets/PixPin_2026-02-17_18-42-17-20260217184242-9clerkh.gif)
+    - ![PixPin_2026-02-17_18-42-17](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/PixPin_2026-02-17_18-42-17-20260217184242-9clerkh.gif)
 
 
 
@@ -246,21 +246,20 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 ## Advance
 
 * In the Browser, right-click a card and select **[Advance]**. This corresponds to (is the opposite of) **[Postpone]**.
-- ![image](assets/image-20260217184325-hduqqmx.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217184325-hduqqmx.png)
 
 ## Postpone
 
 * In the Browser, right-click a card and select **[Postpone]**.
-- ![image](assets/image-20260217184540-o1c2fwv.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217184540-o1c2fwv.png)
 
 ## Load Balancing (Spread)
 
 * There is a **[Load Balancing]** button on the Browser toolbar. Clicking it opens the interface.
-- ![image](assets/image-20260217185204-zpfvb1p.png)
+- ![image](https://raw.githubusercontent.com/Dammyxy/siyuan-plugin-siyuanmemo/main/assets/image-20260217185204-zpfvb1p.png)
 * **Note:** The **[Load Balancing]** function under "All Flashcards" has two modes:
 1. Process unreviewed cards (Backlog) — default (uncheck "Consider Future Reviews").
 2. Process cards scheduled for review in the future (e.g., next year) — select by adjusting the collection period.
-
 
 
 * In the Queue View, clicking **[Load Balancing]** defaults to collecting due cards and prevents changing the collection period.
