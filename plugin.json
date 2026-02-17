@@ -1,0 +1,36 @@
+{
+  "name": "siyuan-plugin-siyuanmemo",
+  "author": "Dammyxy",
+  "url": "https://github.com/Dammyxy/siyuan-plugin-siyuanmemo",
+  "version": "0.0.1",
+  "minAppVersion": "3.2.1",
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "desktop",
+    "browser-desktop",
+    "desktop-window"
+  ],
+  "displayName": {
+    "en_US": "SiyuanMemo",
+    "zh_CN": "间隔重复系统"
+  },
+  "description": {
+    "en_US": "Stage 2 Flashcard Enhancement - Adding a complete spaced repetition system to SiYuan flashcards.",
+    "zh_CN": "第二阶段的闪卡强化，为思源的闪卡加入完善的间隔重复系统。"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": []
+  },
+  "keywords": [
+    "flashcard",
+    "spaced-repetition",
+    "fsrs",
+    "incremental-reading"
+  ]
+}
