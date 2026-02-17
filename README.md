@@ -188,7 +188,7 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 ## CDF Card Creation
 
 * **How to use?**
-* Use Associated Bidirectional Links in the list outline.
+* Use Transitive Links in the list outline.
 
 
 1. Type a list block.
@@ -260,6 +260,7 @@ Ordered List Templates allow batch card creation sharing the same Block ID. Each
 * **Note:** The **[Load Balancing]** function under "All Flashcards" has two modes:
 1. Process unreviewed cards (Backlog) — default (uncheck "Consider Future Reviews").
 2. Process cards scheduled for review in the future (e.g., next year) — select by adjusting the collection period.
+
 
 
 * In the Queue View, clicking **[Load Balancing]** defaults to collecting due cards and prevents changing the collection period.
