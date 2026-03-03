@@ -2,19 +2,17 @@
   "name": "siyuan-plugin-siyuanmemo",
   "author": "Dammyxy",
   "url": "https://github.com/Dammyxy/siyuan-plugin-siyuanmemo",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "disabledInPublish": true,
   "minAppVersion": "3.2.1",
   "backends": [
     "all"
   ],
   "frontends": [
-    "desktop",
-    "browser-desktop",
-    "desktop-window"
+    "all"
   ],
   "displayName": {
-    "default": "SiyuanMemo",
+    "default": "SiYuanMemo",
     "zh_CN": "间隔重复系统"
   },
   "description": {
