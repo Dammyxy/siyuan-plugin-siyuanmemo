@@ -1,5 +1,9 @@
 # SiYuanMemo——间隔重复系统插件
 
+[基本功能介绍](https://ld246.com/article/1773097574147)
+
+[神经漫游使用说明](https://ld246.com/article/1773097707973)
+
 [English](https://github.com/Dammyxy/siyuan-plugin-siyuanmemo/blob/main/README.md)
 
 这个插件能让你：
@@ -356,3 +360,4 @@ PS：也可以使用原生的快速制卡，也能正确识别多挖空，并同
 - 在队列视图下，点击【分摊压力】会默认收集到期的卡片，无法更改收集期。
 
 ‍
+
