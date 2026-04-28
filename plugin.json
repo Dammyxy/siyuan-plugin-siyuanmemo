@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-siyuanmemo",
   "author": "Dammyxy",
   "url": "https://github.com/Dammyxy/siyuan-plugin-siyuanmemo",
-  "version": "0.1.9",
+  "version": "0.2.1",
   "disabledInPublish": true,
   "minAppVersion": "3.2.1",
   "backends": [
